@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="heading">
+        <span class="color1">F</span>
+        <span class="color2">u</span>
+        <span class="color3">n</span>
+        <span class="color4">d</span>
+        <span class="color5">o</span>
+        <span class="color6">o</span>
+
+    </div>
+    <div class="title">
+        <p>Find your email </p>
+    </div>
+    <div class="title1">
+        <p>Enter your phone number or recovery mail</p>
+    </div>
+
+   <form [formGroup]="forgotemailform"(ngSubmit)="ForgotemailSubmission()">
+    <div class="phonenum">
+        <mat-form-field appearance="outline">
+            <mat-label>Phonenumber or email</mat-label>
+            <input type="text" formControlName="email" matInput placeholder="Phone number or email">
+            <mat-error>Enter a valid email or phone number</mat-error>
+         </mat-form-field>
+    </div>
+    <div class="nextbutton">
+        <button class="button1">Next</button>
+    </div>
+</form>
+</div>

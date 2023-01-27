@@ -1,0 +1,196 @@
+.dashboard-container{
+    background-color: white;
+    position: relative;
+    top:20px;
+    
+}
+
+.mat-toolbar{
+    background-color: white;
+    // border: 2px solid black;
+    //border: 1px solid #c6c9c9;
+  
+    //border-radius: 1px;
+    //border-bottom: 1px;
+    //border-top: 100px;
+    //border-width: 1px 1px 1px 6px;
+   // min-height: 10px;
+
+    
+  }
+  .menu-button{
+    position: relative;
+    top: 10px;
+    
+  }
+ .menuicon{
+    width: 37px;
+    
+ }
+  .keepimageandbutton{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.fundoo{
+    
+    //display: inline-block;
+    font-family: "Product Sans",Arial,sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    position: relative;
+    left: 20px;
+    top:5px;
+    
+}
+
+.Search{
+    //margin-left: ;
+    margin-top: 1em;
+   // text-align: center;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    //border-right-width: 50em;
+    // background: transparent;
+    background-color: transparent;
+    position: relative;
+    left:40px;
+
+}
+.searchicon{
+    width: 35px;
+    position: relative;
+    right:750px;
+    //top:5px;
+    
+}
+.example-icon{
+    border: none;
+    background-color:transparent;
+    position: relative;
+    width: 50px;
+    cursor:pointer;
+}
+mat-form-field{
+    //width: 400px;
+    height: 40px;
+    position: relative;
+    left:50px;
+}
+mat-label{
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: flex-end;
+    padding: 40px 60px 80px;
+    font-size: 20px;
+    font-family: "Product Sans",Arial,sans-serif;
+    position: relative;
+    top: 10px;
+   
+    
+    
+    
+}
+mat-icon-button{
+  
+    border: none;
+}
+
+.refreshandsetting{
+    position: relative;
+    left: 1000px;
+    border: none;
+    top:10px;
+    
+    
+}
+.refreshbutton{
+    //border-radius: 5;
+    position: relative;
+   width: 37px;
+   
+}
+
+.viewbuttonclass{
+    position: relative;
+    left: 1025px;
+    top:10px;
+    
+}
+ .viewbutton{
+     position: relative;
+    width: 37px;
+ }
+ .settingbuttonclass{
+    position: relative;
+    left: 1050px;
+    top:10px;
+    
+ }
+.settingbutton{
+   position: relative;
+   width: 37px;
+ }
+
+ .appbuttonclass{
+    position: relative;
+    left: 1098px;
+    top:10px;
+    
+ }
+ .appbutton{
+    position: relative;
+    width: 37px;
+}
+.accountbuttonclass{
+    position: relative;
+    left: 1150px;
+ border: none;
+   top:10px;
+    
+}
+.accountbutton{
+    position: relative;
+    width: 37px;
+  
+    
+}
+
+.sidenav-container{
+    position: relative;
+    width: 200px;
+    height: 500px;
+    //padding: 48px 40px 36px;
+    display: flex;
+    flex-direction: column;
+    top:60px;
+
+}
+.list{
+    position: relative;
+    width: 400px;
+}
+
+
+ .sidebar{
+    
+    font-size: 19px;
+    font-family: "Product Sans",Arial,sans-serif;
+    font-weight: 500;
+
+ }
+ .Remindersnav
+{
+    position: relative;
+    bottom:5px;
+    left:10px;
+   // width:300px;
+}
+.notes-container{
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    
+
+}

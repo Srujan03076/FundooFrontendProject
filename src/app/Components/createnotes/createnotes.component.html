@@ -1,0 +1,37 @@
+<div class="create-notes-container">
+    <div *ngIf="display; then thenblock else elseblock"></div>
+    <ng-template #thenblock>
+        <div class="takeanote">
+            <input class="note1" type="text" matInput placeholder="Take a note..." (click)="clicktitle()">
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="closebuttonimg" src="../../../assets/check_box_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            </button>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="brush" src="../../../assets/brush_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            </button>
+
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="insertphoto" src="../../../assets/image_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            </button>
+        </div>
+    </ng-template>
+
+    <ng-template #elseblock>
+        <form [formGroup]="createnoteForm " (ngSubmit)="CreatenoteSubmit()">
+            <div class="notesclass">
+                <input class="note2" matInput type="text" placeholder="Title" formControlName="title">
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                    <img class="pin" src="../../../assets/push_pin_FILL0_wght400_GRAD0_opsz48.svg">
+                </button>
+                <div>
+                    <input class="note3" matInput type="text" placeholder="Take a note..."
+                        formControlName="description">
+                </div>
+                <div class="closebutton">
+                    <app-icons></app-icons>
+                    <button (click)="CreatenoteSubmit()"mat-button class="closebuttonclass">Close</button>
+                </div>
+            </div>
+        </form>
+    </ng-template>
+</div>

@@ -1,0 +1,216 @@
+.container{
+    width: 650px ;
+    height: 530px; ;
+    border:2px solid gainsboro;;
+    margin: auto;
+    margin-top: 38px;
+    padding: 48px 40px 36px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    
+    }
+    
+    .heading{
+        display: flex;
+        flex-direction: row;
+        font-size: 22px;
+        font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    
+    }
+    
+    .color1{
+        color: blue 
+    }
+    .color2
+    {
+        color: red;
+    }
+    
+    .color3
+    {
+        color:yellow;
+    }
+    
+    .color4
+    {
+        color:blue;
+    }
+    .color5
+    {
+        color:green;
+    }
+    .color6
+    {
+        color:red;
+    }
+    
+    .title{
+        font-size: 25px;
+        font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+        position: relative;
+        top: -10px;
+    }
+    
+    mat-form-field{
+        width: 180px;
+        height: 55px;
+    }
+    
+    .lastname
+    {
+       //border: 2px solid green;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        right: 20px;
+        left: 130px;
+        bottom: 55px;
+        width: 300px;
+        
+        
+    }
+    .username{
+        position: relative;
+        bottom: 40px;
+    }
+    mat-hint{
+        position: relative;
+        right: 1px;
+        font-size: 11px;
+        font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    }
+    .emailbutton{
+        position: relative;
+        bottom: 10px;
+        right:5px;
+    
+    }
+    .button1{
+        color: var(--gm-colortextbutton-ink-color,#1a73e8);
+        font-family: "Google Sans",Roboto,Arial,sans-serif;
+        background-color: transparent;
+        font-size: .875rem;
+        letter-spacing: .0107142857em;
+        font-weight: 500;
+        text-transform: none;
+        cursor: pointer;
+        border: none;
+    }
+    .password{
+        position: relative;
+        top: 10px;
+    
+    }
+    .confirmpass{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        left: 130px;
+        bottom: 45px;
+        width: 300px;
+        
+    }
+    .hint{
+        // display: flex;
+        // flex-direction: row;
+        // justify-content:flex-start;
+        font-size: 11px;
+       font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+       position: relative;
+       bottom:50px;
+       left: 15px;
+    }
+    .show-pass{
+        font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+        font-size: 15px;
+        position: relative;
+        bottom: 30px;
+        cursor: pointer;
+    }
+    
+    .signinandnextbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        width:400px;
+        top:20px;
+        
+    }
+    
+    .button2{
+        color: var(--gm-colortextbutton-ink-color,#1a73e8);
+        font-family: "Google Sans",Roboto,Arial,sans-serif;
+        background-color: transparent;
+        font-size: .875rem;
+        letter-spacing: .0107142857em;
+        font-weight: 500;
+        text-transform: none;
+        cursor: pointer;
+        border: none;
+    
+    }
+    .button3{
+        background-color: var(--gm-colortextbutton-ink-color,#1a73e8);
+        color: white;
+        border-radius: 6px;
+        width: 80px;
+        height: 30px;
+        font-size: .875rem;
+        letter-spacing: .0107142857em;
+        font-weight: 500;
+        text-transform: none;
+        cursor: pointer;
+        border: none;
+        position: relative;
+        right: 20px;
+    
+    }
+     .rightdiv{
+         //display: flex;
+         //flex-direction: row;
+        // justify-content: flex-end;
+        position: relative;
+        left:450px;
+         bottom:380px;
+        
+     }
+    .imageandpara{
+        // border: 2px solid red;
+        position: relative;
+        left: 70%;
+        width: 250px;
+        height: 40%;
+        top: -535px;
+        bottom: 370px;
+        font-family: "Google Sans",Roboto,Arial,sans-serif;
+        font-size: 16px;
+    }
+    
+    .image{
+        //   border: 2px solid red;
+          width: 197x;
+          height: 201px;
+        }
+    
+    .para{
+        font-size: 16px;
+        font-family: "Google Sans",Roboto,Arial,sans-serif;
+    }
+    .para1{
+        font-size: 16px;
+        position: relative;
+        left: 30px;
+        font-family: "Google Sans",Roboto,Arial,sans-serif;
+        bottom:10px;
+    }
+    
+    
+    
+    
+    
+    
+    
