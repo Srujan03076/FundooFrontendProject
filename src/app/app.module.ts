@@ -20,6 +20,15 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { DispalynotesComponent } from './Components/dispalynotes/dispalynotes.component';
+import { GetallnotesComponent } from './Components/getallnotes/getallnotes.component';
+import {MatCardModule} from '@angular/material/card';
+import { UpdatenotesComponent } from './Components/updatenotes/updatenotes.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { FormsModule } from '@angular/forms';
+import {MatMenuModule} from '@angular/material/menu';
+import { ArchivenotesComponent } from './Components/archivenotes/archivenotes.component';
+
 
 
 @NgModule({
@@ -31,7 +40,12 @@ import {MatListModule} from '@angular/material/list';
     ResetpasswordComponent,
     DashboardComponent,
     CreatenotesComponent,
-    IconsComponent
+    IconsComponent,
+    DispalynotesComponent,
+    GetallnotesComponent,
+    UpdatenotesComponent,
+    ArchivenotesComponent 
+    
   ],
   imports: [
     BrowserModule,
@@ -45,7 +59,11 @@ import {MatListModule} from '@angular/material/list';
    MatToolbarModule,
    MatIconModule,
    MatSidenavModule,
-   MatListModule
+   MatListModule,
+   MatCardModule,
+   MatDialogModule,
+   FormsModule,
+   MatMenuModule
    
    
     

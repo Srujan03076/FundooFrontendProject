@@ -1,0 +1,17 @@
+<div *ngFor="let notes of notesArraylist;" class="card">
+    <mat-card class="container">
+        <mat-card-title class="title" (click)="openDialogBox(notes)">{{notes.title}}
+            <button class="pin" mat-icon-button>
+                <img class="pinbutton" src="../../../assets/push_pin_FILL0_wght400_GRAD0_opsz48.svg" />
+            </button>
+        </mat-card-title>
+        <mat-card-content>
+            <div role="textbox" class="mytext"(click)="openDialogBox(notes)">{{notes.description}}</div>
+            <div>{{notes.NotesId}}</div>
+        </mat-card-content>
+
+        <div class="app-icons">
+            <app-icons [notesObjects]="notes"></app-icons>
+        </div>
+    </mat-card>
+</div>

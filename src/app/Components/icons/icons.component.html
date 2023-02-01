@@ -1,20 +1,54 @@
+<div *ngIf="!isTrash">
+
 <div class="icons">
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    
+    <button mat-button class="example-icon" aria-label="Example icon-button with menu icon">
         <img class="Remindmebutton" src="../../../assets/add_alert_FILL0_wght400_GRAD0_opsz48.svg" alt="">
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button mat-button class="example-icon" aria-label="Example icon-button with menu icon">
         <img class="Collabbutton" src="../../../assets/person_add_FILL0_wght400_GRAD0_opsz48.svg" alt="">
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button mat-button class="example-icon" aria-label="Example icon-button with menu icon">
         <img class="BackOptionsbutton" src="../../../assets/palette_FILL0_wght400_GRAD0_opsz48.svg" alt="">
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button mat-button class="example-icon" aria-label="Example icon-button with menu icon">
         <img class="AddImagebutton" src="../../../assets/image_FILL0_wght400_GRAD0_opsz48.svg" alt="">
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+
+    <div *ngIf="!isArchive">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="archivenote()">
         <img class="Archivebutton" src="../../../assets/archive_FILL0_wght400_GRAD0_opsz48.svg" alt="">
     </button>
+   </div>
+
+   <div *ngIf="isArchive">
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-        <img class="Morebutton" src="../../../assets/more_vert_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-    </button>
+    <img class="Unarchivebutton" src="../../../assets/unarchive_FILL0_wght400_GRAD0_opsz48.svg" alt="" >
+</button>
 </div>
+<button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu">
+        <img class="Morebutton"  src="../../../assets/more_vert_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+    </button>
+<div class="matmenu">
+    <mat-menu #menu="matMenu" >
+    <button mat-menu-item (click)="deletenote()">Delete Note </button>
+    <button mat-menu-item>Add label</button>
+    <button mat-menu-item>Add drawing</button>
+    <button mat-menu-item>Make a Copy</button>
+    <button mat-menu-item>Show checkboxes</button>
+    <button mat-menu-item>Copy to google docs</button>
+</mat-menu>
+</div>
+</div>
+</div>
+
+<!-- <button mat-icon-button [matMenuTriggerFor]="menu"> -->
+        
+        <!-- <img class="Morebutton"  src="../../../assets/more_vert_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Add label</button>
+              
+           
+       
+      </mat-menu> -->

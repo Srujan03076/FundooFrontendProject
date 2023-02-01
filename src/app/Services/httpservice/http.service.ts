@@ -14,8 +14,12 @@ export class HttpService {
     return this.http.post(this.baseUrl+url, reqdata, token && httpOptions)
   }
 
-  putService(url:string ,reqdata: any, token: boolean=true, httpOptions:any){
-    console.log(reqdata)
+  putService(url:string , reqdata: any, token: boolean=true, httpOptions:any){
     return this.http.put(this.baseUrl+url,reqdata,token && httpOptions)
   }
+  getService(url:any , token: boolean=true, httpOptions:any){
+   // console.log(reqdata)
+    return this.http.get(this.baseUrl+url,token && httpOptions)
+  }
+
 }

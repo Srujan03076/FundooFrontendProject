@@ -1,0 +1,64 @@
+.card{
+    //display: flex;
+    display: table-row;
+    //justify-content: space-between;
+    position: relative;
+    bottom: 300px;
+    
+   // border: black;
+
+    
+}
+
+.container{
+    display: flex;
+    
+    //margin-bottom: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    border-color: red;
+     position: relative;
+    // //bottom: 100px;
+     width: 300px;
+     height: 100px;
+    //margin-top: 00px;
+    left :300px;
+    flex-direction: column;
+     box-shadow: 0 0 10px #888888;
+}
+
+.title{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    //right: -10px;
+    
+}
+
+
+.pin{
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: flex-end;
+    // align-items: flex-end;
+    //width: 30px;
+    //margin-left: 270px;
+    background-color: transparent;
+    border: none;
+}
+
+.pinbutton{
+    position: relative;
+    width: 25px;
+    left: 200px;
+  
+}
+.app-icons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 580px;
+    bottom: 15px;
+    cursor: pointer;
+    //: 200px;
+}

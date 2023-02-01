@@ -1,0 +1,15 @@
+
+<div class="container">
+<div class="texttitle">
+    <mat-card-title>
+        <input matInput [(ngModel)]="title" class="inputtitle">
+    </mat-card-title>
+</div>
+<div class="textdescription">
+    <input matInput [(ngModel)]="description" class="inputdescription">
+</div>
+<div class="icons">
+    <app-icons></app-icons>
+    <button class="closebutton" mat-button (click)="closeDialogBox()">Close</button>
+</div>
+</div>

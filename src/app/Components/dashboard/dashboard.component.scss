@@ -56,7 +56,20 @@
     background-color: transparent;
     position: relative;
     left:40px;
+    //width: 400px;
+    //height: auto;
 
+}
+.Searchclass{
+    position: relative;
+    width: 750px;
+    height: 45px;
+    font-size: 17px;
+    left: 70px;
+    border-radius: 0.5rem;
+    background-color:field;
+   
+   
 }
 .searchicon{
     width: 35px;
@@ -74,7 +87,7 @@
 }
 mat-form-field{
     //width: 400px;
-    height: 40px;
+    height: 30px;
     position: relative;
     left:50px;
 }
@@ -99,7 +112,7 @@ mat-icon-button{
 
 .refreshandsetting{
     position: relative;
-    left: 1000px;
+    left: 610px;
     border: none;
     top:10px;
     
@@ -114,7 +127,7 @@ mat-icon-button{
 
 .viewbuttonclass{
     position: relative;
-    left: 1025px;
+    left: 630px;
     top:10px;
     
 }
@@ -124,7 +137,7 @@ mat-icon-button{
  }
  .settingbuttonclass{
     position: relative;
-    left: 1050px;
+    left: 650px;
     top:10px;
     
  }
@@ -135,7 +148,7 @@ mat-icon-button{
 
  .appbuttonclass{
     position: relative;
-    left: 1098px;
+    left: 690px;
     top:10px;
     
  }
@@ -145,7 +158,7 @@ mat-icon-button{
 }
 .accountbuttonclass{
     position: relative;
-    left: 1150px;
+    left: 700px;
  border: none;
    top:10px;
     
@@ -165,6 +178,7 @@ mat-icon-button{
     display: flex;
     flex-direction: column;
     top:60px;
+
 
 }
 .list{
